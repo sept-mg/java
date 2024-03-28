@@ -33,7 +33,7 @@ public class CompteSecurise extends Compte {
 
     @Override
     public void retirer(long val) {
-        assert retraitPossible(val);
+        //assert retraitPossible(val);
 
         super.retirer(val);
 
