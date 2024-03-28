@@ -18,6 +18,7 @@ public class CompteSecurise extends Compte {
         dernierRetrait = new LinkedList<>();
     }
 
+    @Override
     public boolean retraitPossible(long val) {
         if(!super.retraitPossible(val))
             return false;
